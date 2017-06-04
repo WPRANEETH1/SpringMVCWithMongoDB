@@ -28,6 +28,10 @@ public class Openfoodservicesimpl implements Openfoodservices {
     @Override
     public Response getAllProducts() {
         try {
+            boolean val = openfooddao.checkDcumentEmpty();
+            if (val == false) {
+                openfooddao.firstTimeSaveData();
+            }
             JSONArray allproduct = openfooddao.getAllProducts();
             return Response.ok(allproduct).build();
         } catch (Exception e) {

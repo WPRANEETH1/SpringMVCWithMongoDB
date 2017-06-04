@@ -14,4 +14,8 @@ import org.json.simple.JSONArray;
 public interface Openfooddao {
 
     JSONArray getAllProducts();
+
+    void firstTimeSaveData();
+
+    boolean checkDcumentEmpty();
 }
