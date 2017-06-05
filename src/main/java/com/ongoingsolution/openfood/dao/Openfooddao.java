@@ -5,6 +5,7 @@
  */
 package com.ongoingsolution.openfood.dao;
 
+import com.ongoingsolution.openfood.model.OpenFoodProduct;
 import org.json.simple.JSONArray;
 
 /**
@@ -14,6 +15,18 @@ import org.json.simple.JSONArray;
 public interface Openfooddao {
 
     JSONArray getAllProducts();
+
+    JSONArray getAllProductsOrderByQuentity();
+
+    JSONArray getProductsByName(String productName);
+
+    JSONArray getProductsByNameAndQuantity(String productName, int quantity);
+
+    boolean createProduct(OpenFoodProduct createdproduct);
+
+    boolean updateProduct(OpenFoodProduct updateproduct);
+
+    boolean deleteProduct(String Id);
 
     void firstTimeSaveData();
 

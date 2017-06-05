@@ -1,0 +1,70 @@
+{
+    "ingredients_translations": {
+        "fr": "Pates "
+    },
+    "unit": "g",
+    "portion_unit": "g",
+    "quantity": 0,
+    "display_name_translations": {
+        "fr": "Giovanni Rana Rana Duetto"
+    },
+    "portion_quantity": 250,
+    "nutrients": {
+        "carbohydrates": {
+            "per_hundred": 35,
+            "unit": "g",
+            "name_translations": {
+                "fr": "Glucides"
+            }
+        },
+        "salt": {
+            "per_hundred": 1,
+            "unit": "g",
+            "name_translations": {
+                "fr": "Sel"
+            }
+        },
+        "sugars": {
+            "per_hundred": 2.9,
+            "unit": "g",
+            "name_translations": {
+                "fr": "Sucres"
+            }
+        },
+        "protein": {
+            "per_hundred": 9,
+            "unit": "g",
+            "name_translations": {
+                "fr": "Protéines"
+            }
+        },
+        "fat": {
+            "per_hundred": 11,
+            "unit": "g",
+            "name_translations": {
+                "fr": "Matières grasses"
+            }
+        },
+        "saturated_fat": {
+            "per_hundred": 6.4,
+            "unit": "g",
+            "name_translations": {
+                "fr": "Acides gras saturées"
+            }
+        },
+        "energy_kcal": {
+            "per_hundred": 279,
+            "unit": "kCal",
+            "name_translations": {
+                "fr": "Énergie (kCal)"
+            }
+        },
+        "energy": {
+            "per_hundred": 1173,
+            "unit": "kJ",
+            "name_translations": {
+                "fr": "Énergie"
+            }
+        }
+    }
+}
